@@ -1,0 +1,19 @@
+{
+  "name": "snmp_node",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Joseph",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "net-snmp": "^1.2.4",
+    "nodemon": "^2.0.2",
+    "snmp-native": "^1.2.0"
+  }
+}
